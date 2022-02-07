@@ -1,6 +1,6 @@
 # NEWS APP
 
-This is a news app that uses the [newsapi.org](newsapi.org) public API to render news.
+This is a news app that uses the [newsapi.org](https://newsapi.org) public API to render news.
 
 ## Stack
 Next JS
