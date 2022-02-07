@@ -80,7 +80,6 @@ export const getServerSideProps = async (pageContext) => {
      )
 
      const {articles} = await apiResponse.json()
-     console.log(articles)
 
      return({
          props: {

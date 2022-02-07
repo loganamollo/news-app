@@ -7,7 +7,7 @@ html {
   display: flex;
   height: 100vh;
   flex-direction: column;
-  margin-right: 5%;
-  margin-left: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
