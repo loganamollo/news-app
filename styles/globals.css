@@ -3,3 +3,9 @@ html, body {
   padding: 0;
 }
 
+.page-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
