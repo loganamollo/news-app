@@ -1,17 +1,22 @@
+import Layout from '../components/Layout'
 import styles from '../styles/EOM.module.css'
 
 export const EOM = ({employee}) => {
     return(
-        <div className="page-container">
-            <div className={styles.main}>
-            <h1>Employee of the month</h1>
-            <div className={styles.employeeOfTheMonth}>
-                <h3>{employee.name}</h3>
-                <p>{employee.position}</p>
-                <img src={employee.image} />
-            </div>
+        <Layout>
+            <div className="page-container">
+                <div className={styles.main}>
+                
+                <h1>Employee of the month</h1>
+                
+                <div className={styles.employeeOfTheMonth}>
+                    <h3>{employee.name}</h3>
+                    <p>{employee.position}</p>
+                    <img src={employee.image} />
+                </div>
             </div>
         </div>
+        </Layout>
     )
 }
 
